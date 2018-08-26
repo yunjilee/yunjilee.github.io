@@ -1,0 +1,76 @@
+.about-page {
+	padding-top: 4rem;
+	min-height: 100vh;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@media (max-width: 500px) {
+	.about-page {
+		padding-top: 3rem;
+	}
+}
+
+.about-page h1 {
+	padding: 1rem 0;
+	font-size: 3rem;
+}
+
+.about-page .content-grid {
+	-ms-flex: auto;
+	flex: auto;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+.item1 {
+  flex: 7;
+}
+.item2 {
+  flex: 5;
+	padding-top: 2rem;
+}
+.space {
+	flex: 1;
+}
+
+.about-page .about-wrapper .about-content {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+@media (max-width: 425px) {
+	.about-page .about-wrapper .about-content {
+		font-size: 1rem;
+	}
+}
+
+.about-page .about-wrapper .about-content p {
+	font-weight: 300;
+	padding: 0.5rem 0;
+}
+
+.about-page .about-wrapper .about-content .text-emoji {
+	padding: 2rem 0;
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
