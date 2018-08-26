@@ -1,12 +1,9 @@
 {
-  "main.css": "static/css/main.de5bab4e.css",
-  "main.css.map": "static/css/main.de5bab4e.css.map",
-  "main.js": "static/js/main.aad325b0.js",
-  "main.js.map": "static/js/main.aad325b0.js.map",
+  "main.css": "static/css/main.c3ba455d.css",
+  "main.css.map": "static/css/main.c3ba455d.css.map",
+  "main.js": "static/js/main.7c00e66f.js",
+  "main.js.map": "static/js/main.7c00e66f.js.map",
+  "static/media/Profile.png": "static/media/Profile.996666e0.png",
   "static/media/Proxima-Nova-Light.woff2": "static/media/Proxima-Nova-Light.baaa8e74.woff2",
-  "static/media/Proxima-Nova-Regular.woff2": "static/media/Proxima-Nova-Regular.920c71d3.woff2",
-  "static/media/roboto-v18-latin-100.woff2": "static/media/roboto-v18-latin-100.987b8457.woff2",
-  "static/media/roboto-v18-latin-300.woff2": "static/media/roboto-v18-latin-300.55536c8e.woff2",
-  "static/media/roboto-v18-latin-900.woff2": "static/media/roboto-v18-latin-900.19b7a0ad.woff2",
-  "static/media/roboto-v18-latin-regular.woff2": "static/media/roboto-v18-latin-regular.5d4aeb4e.woff2"
+  "static/media/Proxima-Nova-Regular.woff2": "static/media/Proxima-Nova-Regular.920c71d3.woff2"
 }
