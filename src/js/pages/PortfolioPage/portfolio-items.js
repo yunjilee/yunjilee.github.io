@@ -1,19 +1,36 @@
 import React from 'react';
 
 export default [{
-  name: 'my-health-profile',
+  name: 'job-runner',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        My Health Profile
+        Job Runner
       </div>
       <div className='portfolio-item__desc'>
-				Mobile app for keeping a personal medical health profile<br /><br />
+				Server to automate and manage concurrently running jobs<br /><br />
 
-				Swift / Firebase
+				Elixir / React / PostgreSQL
       </div>
       <div className='portfolio-item__icon'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/yunjilee/TreeHacks18"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@yunjilee_22134/my-experience-as-a-software-developer-intern-at-a-trading-firm-707404d85f6d"><i className="fab fa-medium"></i></a>
+      </div>
+    </div>
+  )
+}, {
+  name: 'peerval',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Peerval
+      </div>
+      <div className='portfolio-item__desc'>
+        A peer-to-peer college essay reviewing platform<br /><br />
+
+				Node.js / MongoDB
+      </div>
+      <div className='portfolio-item__icon'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/yunjilee/Peerval"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )
@@ -35,24 +52,20 @@ export default [{
     </div>
   )
 }, {
-  name: 'peerval',
+  name: 'my-health-profile',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Peerval
+        My Health Profile
       </div>
       <div className='portfolio-item__desc'>
-        A peer-to-peer college essay reviewing platform<br /><br />
+				Mobile app for keeping a personal medical health profile<br /><br />
 
-				Node.js / MongoDB
+				Swift / Firebase
       </div>
       <div className='portfolio-item__icon'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/yunjilee/Peerval"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/yunjilee/TreeHacks18"><i className="fab fa-github"></i></a>
       </div>
     </div>
   )
 }]
-
-
-// WEBPACK FOOTER //
-// ./src/pages/PortfolioPage/portfolio-items.js
