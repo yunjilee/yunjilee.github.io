@@ -47,7 +47,7 @@ class NavBar extends Component {
 	}
 
 	openEmail() {
-		window.location.href = `mailto:yunjilee@usc.edu`;
+		window.location.href = `mailto:yunjilee22@gmail.com`;
 	}
 
   scrollToPage(pageSelector) {
