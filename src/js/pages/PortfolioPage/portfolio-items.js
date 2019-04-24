@@ -1,6 +1,24 @@
 import React from 'react';
 
 export default [{
+  name: 'desflo',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Desflo
+      </div>
+      <div className='portfolio-item__desc'>
+				Full-stack website for design inspiration<br /><br />
+
+				HTML / CSS / JQuery / PHP / MySQL / Behance API
+      </div>
+      <div className='portfolio-item__icon'>
+        <a target="_blank" rel="noopener noreferrer" href="http://303.itpwebdev.com/~yunjilee/final_project/"><i className="fas fa-globe"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/yunjilee/desflo"><i className="fab fa-github"></i></a>
+      </div>
+    </div>
+  )
+}, {
   name: 'job-runner',
   render: (
     <div className='portfolio-item'>
