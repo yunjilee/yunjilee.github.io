@@ -5,17 +5,17 @@
   "homepage": "https://yunjilee.github.io",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "react": "^16.4.2",
+    "react": "^16.8.6",
     "react-columns": "^1.2.0",
-    "react-dom": "^16.4.2",
+    "react-dom": "^16.8.6",
     "react-mailto": "^0.4.0",
-    "react-native-easy-grid": "^0.2.0",
+    "react-native-easy-grid": "^0.2.1",
     "react-scripts": "1.1.5",
-    "reactstrap": "^6.4.0"
+    "reactstrap": "^6.5.0"
   },
   "scripts": {
-  	"predeploy": "npm run build",
-  	"deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
