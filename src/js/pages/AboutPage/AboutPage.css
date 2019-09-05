@@ -11,12 +11,6 @@
 	justify-content: center;
 }
 
-@media (max-width: 500px) {
-	.about-page {
-		padding-top: 3rem;
-	}
-}
-
 .about-page h1 {
 	padding: 1rem 0;
 	font-size: 3rem;
@@ -25,6 +19,7 @@
 .about-page .content-grid {
 	-ms-flex: auto;
 	flex: auto;
+	margin-top: 3rem;
 }
 
 .flexrow {
@@ -44,6 +39,27 @@
 }
 .space {
 	flex: 1;
+}
+
+@media (max-width: 700px) {
+	.about-page {
+		padding-top: 3rem;
+	}
+
+	.flexrow {
+	  flex-direction: column;
+	}
+	.item1 {
+	  flex: 12;
+	}
+	.item2 {
+	  flex: 12;
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+	.item2 img {
+		width: 300px;
+	}
 }
 
 .about-page .about-wrapper .about-content {

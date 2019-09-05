@@ -1,6 +1,6 @@
 navBar {
 	position: fixed;
-	top: 0;
+	top: 1.2rem;
 	width: 100%;
 	height: 3rem;
 	display: -ms-flexbox;
@@ -20,7 +20,7 @@ navBar {
 navBar .magic-wand {
 	cursor: pointer;
 	justify-self: flex-start;
-	margin-left: 1rem;
+	margin-left: 1.5rem;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
@@ -79,7 +79,7 @@ navBar .magic-wand.bounce-xy {
 }
 
 navBar .menu {
-	margin-right: 1rem;
+	margin-right: 1.5rem;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex: 1 1;
@@ -92,7 +92,7 @@ navBar .menu__item {
 	padding: 0.25rem 0;
 	margin: 0 1rem;
 	font-size: 1rem;
-	font-weight: 300;
+	font-weight: 400;
 	border-bottom: 2px solid transparent;
 }
 

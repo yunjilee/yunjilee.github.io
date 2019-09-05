@@ -15,9 +15,9 @@ const LandingPage = (props, context) => {
 					<NavBar />
 					<main style={{ color: theme.colorPrimary }}>
 						<div className="intro-wrapper">
-							<div className="intro-name">Hello! I'm <span style={{ color: theme.colorStandout }}>Yunji</span></div>
+							<div className="intro-name">Hi, I'm <span style={{ color: theme.colorStandout }}>Yunji</span></div>
 							<pre className="tagline">
-								Developer  /  Designer  /  Food Enthusiast
+								Full-Stack Developer  /  Designer  /  Food Enthusiast
 							</pre>
 							<SocialIcons />
 						</div>

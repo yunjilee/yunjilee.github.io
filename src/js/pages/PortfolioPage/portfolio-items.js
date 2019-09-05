@@ -19,23 +19,6 @@ export default [{
     </div>
   )
 }, {
-  name: 'job-runner',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        Job Runner
-      </div>
-      <div className='portfolio-item__desc'>
-				Server to automate and manage concurrently running jobs<br /><br />
-
-				Elixir / React / PostgreSQL
-      </div>
-      <div className='portfolio-item__icon'>
-        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@yunjilee_22134/my-experience-as-a-software-developer-intern-at-a-trading-firm-707404d85f6d"><i className="fab fa-medium"></i></a>
-      </div>
-    </div>
-  )
-}, {
   name: 'peerval',
   render: (
     <div className='portfolio-item'>
@@ -86,4 +69,38 @@ export default [{
       </div>
     </div>
   )
+}, {
+    name: 'job-runner',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+          Job Runner (DRW)
+        </div>
+        <div className='portfolio-item__desc'>
+  				Server to automate and manage concurrently running jobs<br /><br />
+
+  				Elixir / React / PostgreSQL
+        </div>
+        <div className='portfolio-item__icon'>
+          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@yunjilee_22134/my-experience-as-a-software-developer-intern-at-a-trading-firm-707404d85f6d"><i className="fab fa-medium"></i></a>
+        </div>
+      </div>
+    )
+}, {
+    name: 'scraper-service',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+          24/7 Scraper (Microsoft)
+        </div>
+        <div className='portfolio-item__desc'>
+          24/7 scraping service with an API endpoint, deployed as a distributed Bing microservice<br /><br />
+
+          ASP.NET Core (C#) / Azure SQL Server / MS Object Store / Azure Service Bus
+        </div>
+        <div className='portfolio-item__icon'>
+
+        </div>
+      </div>
+    )
 }]
